@@ -4,8 +4,7 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const navigation = [''];
   return (
     <div className="relative">
       <Container>
@@ -29,9 +28,13 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+            DWAM "Development Web & Application Mobile" 
+              , It is a department of the 
+              Faculty of "Exact Sciences and Automated 
+              Information" at the University of Djelfa. 
+              This page contains information about the 
+              specialization, its advantages, and 
+              references for study.
             </div>
           </div>
 
@@ -48,47 +51,32 @@ export function Footer() {
               ))}
             </div>
           </div>
-          <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
-                <Link
-                  key={index}
-                  href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
-                >
-                  {item}
-                </Link>
-              ))}
-            </div>
-          </div>
+         
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="https://twitter.com/web3templates"
-                target="_blank"
+                href="/"
                 rel="noopener"
               >
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a>
               <a
-                href="https://facebook.com/web3templates"
-                target="_blank"
+                href="/"
                 rel="noopener"
               >
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
               <a
-                href="https://instagram.com/web3templates"
-                target="_blank"
+                href="/"
                 rel="noopener"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
+              <a href="/"  rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>

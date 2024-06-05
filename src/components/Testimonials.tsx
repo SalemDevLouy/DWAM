@@ -8,8 +8,8 @@ import userThreeImg from "../../public/img/user3.jpg";
 
 export const Testimonials = () => {
   return (
-    <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+    <Container className="mb-16">
+      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 ">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
@@ -19,8 +19,8 @@ export const Testimonials = () => {
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Boukhalfa Khaled"
+              title="Django Developer"
             />
           </div>
         </div>
@@ -33,8 +33,8 @@ export const Testimonials = () => {
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Louafi Salem"
+              title="Nextjs Developer & Designer"
             />
           </div>
         </div>
@@ -47,8 +47,8 @@ export const Testimonials = () => {
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Bedrani Mohammed "
+              title="Laraval Developer"
             />
           </div>
         </div>
