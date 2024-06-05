@@ -4,7 +4,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
-import { Faq } from "@/components/Faq";
+import { Lesson } from "@/components/Lesson";
 
 import { benefitOne } from "@/components/data";
 export default function Home() {
@@ -32,7 +32,11 @@ WebDev 101 is a complete introduction into the world of web development.
       </SectionTitle>
 
       <Video videoId="erEgovG9WBs" />
+      <SectionTitle preTitle="Lesson" title="Lesson & Resources">
+      Here you will find references for your course of study and some sample tests
+      </SectionTitle>
 
+      <Lesson />
       <SectionTitle
         preTitle="Testimonials"
         title="Here's what the graduating students said"
@@ -42,12 +46,7 @@ WebDev 101 is a complete introduction into the world of web development.
 
       <Testimonials/>
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
-
-      <Faq />
+      
     </Container>
   );
 }
