@@ -6,16 +6,14 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "L1",
+    "L2",
+    "L3"
   ];
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between ">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
