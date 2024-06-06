@@ -19,7 +19,7 @@ export const Lesson = () => {
                     <span>{item.level}</span>
                     <ChevronUpIcon
                       className={`${
-                        open ? "transform rotate-180" : ""
+                        open ? "transform rotate-180 transition-all duration-500" : "transition-all duration-500"
                       } w-5 h-5 text-indigo-500`}
                     />
                   </DisclosureButton>

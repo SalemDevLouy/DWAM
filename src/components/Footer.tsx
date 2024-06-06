@@ -81,7 +81,13 @@ export function Footer() {
                 <Linkedin />
               </a>
             </div>
+            
           </div>
+          <div>
+        <Link href="https://github.com/simo0loufi/DWAM.git" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                        Go to repo
+        </Link>
+        </div>
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
@@ -95,6 +101,7 @@ export function Footer() {
           </a>
           ,Modified by Louafi Salem
         </div>
+       
       </Container>
       {/* Do not remove this */}
       <Backlink />
