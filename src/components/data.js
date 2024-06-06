@@ -13,17 +13,17 @@ const benefitOne = {
   bullets: [
     {
       title: "Web development And CMS",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      desc: "Html/css javascript and cms like wordpress ",
       icon: <GlobeAltIcon />,
     },
     {
-      title: "Mobile Applications",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Mobile Applications Android/IOS",
+      desc: "Native mobile application with Java for android and swift for IOS",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Desktop Application",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Desktop Application and Asp.net",
+      desc: "You will learn C#",
       icon: <ComputerDesktopIcon />,
     },
     

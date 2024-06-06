@@ -26,13 +26,14 @@ export const Lesson = () => {
                   <DisclosurePanel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
                   {item.sesmester.map((sesmester, index) => (
           <div key={sesmester.no} className=" mb-4 ">
-            <div className='border-b-indigo-500 border-b-2  p-5 flex flex-col gap-4'>
+            <div className='border-b-indigo-500 border-b-2  p-5 flex flex-col gap-4 rounded-md bg-indigo-200'>
               <span className="text-indigo-500 font-bold underline">Season : {sesmester.no}</span>
-              <p>
+              <p className="text-gray-600">
               {sesmester.desc} 
               </p>
               <a href={sesmester.link}>
-                <span className="text-indigo-500 font-bold p-2 bg-gray-100 rounded-xl">Go to drive</span>
+                <span className="text-indigo-500 font-bold p-2 bg-gray-200 rounded-xl hover:bg-indigo-500
+                 hover:text-gray-100 transition-all duration-500">Go to drive</span>
               </a>
               
               

@@ -2,13 +2,18 @@
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
-import { Disclosure } from "@headlessui/react";
+import { Disclosure ,DisclosureButton,DisclosurePanel } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    "L1",
-    "L2",
-    "L3"
+    {
+      nav:"Lesson",
+      link:"/sd"
+    },
+    {
+      nav:"Testimonials",
+      link:"/sd"
+    }
   ];
 
   return (
@@ -34,7 +39,7 @@ export const Navbar = () => {
                   </span>
                 </Link>
 
-                <Disclosure.Button
+                <DisclosureButton
                   aria-label="Toggle Menu"
                   className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
                   <svg
@@ -55,20 +60,20 @@ export const Navbar = () => {
                       />
                     )}
                   </svg>
-                </Disclosure.Button>
+                </DisclosureButton>
 
-                <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+                <DisclosurePanel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
-                          {item}
+                      <Link key={index} href={`${item.link}`} className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
+                          {item.nav}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Get Started
+                    <Link href="https://github.com/simo0loufi/DWAM.git" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                        Go to repo
                     </Link>
                   </>
-                </Disclosure.Panel>
+                </DisclosurePanel>
               </div>
             </>
           )}
@@ -80,7 +85,7 @@ export const Navbar = () => {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
-                    {menu}
+                    {menu.nav}
                 </Link>
               </li>
             ))}
@@ -88,8 +93,8 @@ export const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+          <Link href="https://github.com/simo0loufi/DWAM.git" target="_blank" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+              Go to repo
           </Link>
 
           <ThemeChanger />

@@ -22,7 +22,11 @@ WebDev 101 is a complete introduction into the world of web development.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
-      {/* <Benefits imgPos="right" data={benefitTwo} /> */}
+  
+      <SectionTitle preTitle="Lesson" title="Lesson & Resources">
+      Here you will find references for your course of study and some sample tests
+      </SectionTitle>
+      <Lesson />
 
       <SectionTitle
         preTitle="Watch a video"
@@ -30,20 +34,13 @@ WebDev 101 is a complete introduction into the world of web development.
       >
         This video explain what is web development, watch it until the end
       </SectionTitle>
-
       <Video videoId="erEgovG9WBs" />
-      <SectionTitle preTitle="Lesson" title="Lesson & Resources">
-      Here you will find references for your course of study and some sample tests
-      </SectionTitle>
-
-      <Lesson />
       <SectionTitle
         preTitle="Testimonials"
         title="Here's what the graduating students said"
       >
         These are some opinions of recently graduated students.
       </SectionTitle>
-
       <Testimonials/>
 
       
