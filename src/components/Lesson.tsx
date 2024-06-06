@@ -100,4 +100,14 @@ const levels = [
       }
   ] 
   },
+  {
+    level: "Intership",
+    sesmester:[
+      {
+      no:'intership',
+      desc:"Here is same file you will need it",
+      link:"https://drive.google.com/drive/folders/1e65_R6q0PBzTlFLxuZvAb48uCIJE1bzJ?fbclid=IwZXh0bgNhZW0CMTAAAR31VTmRZ7dtUsQU-pwSxFcM1Vwa3FNOoa1qndLYNyvN0wxSNLhXxAr5j1E_aem_AREX99JseUyk4oUxq_MPMhINO4hcNDVQL5XBa9XJQS3jtPJrVms-pXCrUkqwRv_C20PJPbfHmzWZ0xeDjGPy4ete"
+      }
+  ] 
+  },
 ];
