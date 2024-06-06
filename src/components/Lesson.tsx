@@ -31,7 +31,7 @@ export const Lesson = () => {
               <p className="text-gray-600">
               {sesmester.desc} 
               </p>
-              <a href={sesmester.link}>
+              <a href={sesmester.link} target="_blank">
                 <span className="text-indigo-500 font-bold p-2 bg-gray-200 rounded-xl hover:bg-indigo-500
                  hover:text-gray-100 transition-all duration-500">Go to drive</span>
               </a>
@@ -61,12 +61,12 @@ const levels = [
       {
       no:'01',
       desc:"On this season you will learn the basics and general information about the web like :Algorithme , Networks ,How internet work ... etc",
-      link:"/"
+      link:"https://drive.google.com/drive/folders/11bXwh_nANo-I-M6jrksYVDmmNHa_mtm5?fbclid=IwZXh0bgNhZW0CMTAAAR31VTmRZ7dtUsQU-pwSxFcM1Vwa3FNOoa1qndLYNyvN0wxSNLhXxAr5j1E_aem_AREX99JseUyk4oUxq_MPMhINO4hcNDVQL5XBa9XJQS3jtPJrVms-pXCrUkqwRv_C20PJPbfHmzWZ0xeDjGPy4ete"
       },
       {
       no:'02',
       desc:"This season you will learn front-end web development techniques with html css & js and wou will learn relation databases ",
-      link:"/"
+      link:"https://drive.google.com/drive/folders/1UpDy7k_fKbk3NKFJYoLYbhWNcKwSYXNH?fbclid=IwZXh0bgNhZW0CMTAAAR31VTmRZ7dtUsQU-pwSxFcM1Vwa3FNOoa1qndLYNyvN0wxSNLhXxAr5j1E_aem_AREX99JseUyk4oUxq_MPMhINO4hcNDVQL5XBa9XJQS3jtPJrVms-pXCrUkqwRv_C20PJPbfHmzWZ0xeDjGPy4ete"
       }
   ] 
   },
@@ -76,12 +76,12 @@ const levels = [
       {
       no:'03',
       desc:"This season you will learn back-end development with php and UML diagrams",
-      link:"/"
+      link:"https://drive.google.com/drive/folders/12dD6OFl5dnnzyRHQ15fHN-HjItjKg3Ji?fbclid=IwZXh0bgNhZW0CMTAAAR31VTmRZ7dtUsQU-pwSxFcM1Vwa3FNOoa1qndLYNyvN0wxSNLhXxAr5j1E_aem_AREX99JseUyk4oUxq_MPMhINO4hcNDVQL5XBa9XJQS3jtPJrVms-pXCrUkqwRv_C20PJPbfHmzWZ0xeDjGPy4ete"
       },
       {
       no:'04',
       desc:"This season you will learn mobile applications with Java and asp.net framwork ",
-      link:"/"
+      link:"https://drive.google.com/drive/folders/1EuMI55MG6o6LSCSUsYWrAIV1DLTRbxel?fbclid=IwZXh0bgNhZW0CMTAAAR31VTmRZ7dtUsQU-pwSxFcM1Vwa3FNOoa1qndLYNyvN0wxSNLhXxAr5j1E_aem_AREX99JseUyk4oUxq_MPMhINO4hcNDVQL5XBa9XJQS3jtPJrVms-pXCrUkqwRv_C20PJPbfHmzWZ0xeDjGPy4ete"
       }
   ] 
   },
@@ -91,12 +91,12 @@ const levels = [
       {
       no:'05',
       desc:"This season you will learn CMS and IOS application development ",
-      link:"/"
+      link:"https://drive.google.com/drive/folders/1Iu0bnm6p50vzVh9DN-RfNngTOxBrOEPd?fbclid=IwZXh0bgNhZW0CMTAAAR31VTmRZ7dtUsQU-pwSxFcM1Vwa3FNOoa1qndLYNyvN0wxSNLhXxAr5j1E_aem_AREX99JseUyk4oUxq_MPMhINO4hcNDVQL5XBa9XJQS3jtPJrVms-pXCrUkqwRv_C20PJPbfHmzWZ0xeDjGPy4ete"
       },
       {
       no:' 06',
       desc:"Only graduation Project",
-      link:"/"
+      link:"https://drive.google.com/drive/folders/1Te5IGZCq1EdlZy5yzONbGYCuEw-EDkvg?fbclid=IwZXh0bgNhZW0CMTAAAR31VTmRZ7dtUsQU-pwSxFcM1Vwa3FNOoa1qndLYNyvN0wxSNLhXxAr5j1E_aem_AREX99JseUyk4oUxq_MPMhINO4hcNDVQL5XBa9XJQS3jtPJrVms-pXCrUkqwRv_C20PJPbfHmzWZ0xeDjGPy4ete"
       }
   ] 
   },
