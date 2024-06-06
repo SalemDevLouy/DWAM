@@ -7,12 +7,8 @@ import { Disclosure ,DisclosureButton,DisclosurePanel } from "@headlessui/react"
 export const Navbar = () => {
   const navigation = [
     {
-      nav:"Lesson",
-      link:"/sd"
-    },
-    {
-      nav:"Testimonials",
-      link:"/sd"
+      nav:"Go to Google drive",
+      link:"https://drive.google.com/drive/folders/1aywXpUXIaBCxYRNPinzlQglaqyzvrn-I?fbclid=IwZXh0bgNhZW0CMTAAAR0DDqdkF0d1JudkQUKIHMoSL8CUDKmbkHIYv4AhwxKocAlDISPmG6AmZxE_aem_AfgsS0BRSlTJjgjWCdQjqXNblg3sgl5Ur1iOfWbbUKy5uyZ8od_J3h9hDFOeUOURUG1tPYU_1f4VXlDhCtBUdXNv"
     }
   ];
 
@@ -38,7 +34,6 @@ export const Navbar = () => {
                     <span>DWAM</span>
                   </span>
                 </Link>
-
                 <DisclosureButton
                   aria-label="Toggle Menu"
                   className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
@@ -61,17 +56,20 @@ export const Navbar = () => {
                     )}
                   </svg>
                 </DisclosureButton>
-
+          
                 <DisclosurePanel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index} href={`${item.link}`} className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
+                      <Link key={index} href={`${item.link}`} target="_blank" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
                           {item.nav}
                       </Link>
                     ))}
-                    <Link href="https://github.com/simo0loufi/DWAM.git" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                        Go to repo
-                    </Link>
+                    <Link href="https://github.com/simo0loufi/DWAM.git" target="_blank" className=" py-2 text-indigo-600 rounded-md ">
+          <span className="flex items-center space-x-2 text-md font-medium dark:text-gray-100">
+                    
+                    <span>Go to repo</span>
+                  </span>
+          </Link>
                   </>
                 </DisclosurePanel>
               </div>
@@ -84,7 +82,7 @@ export const Navbar = () => {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <Link href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+                <Link href={menu.link} target="_blank" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500  focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800 transition-all duration-500 dark:hover:text-indigo-500">
                     {menu.nav}
                 </Link>
               </li>
@@ -93,8 +91,19 @@ export const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="https://github.com/simo0loufi/DWAM.git" target="_blank" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Go to repo
+          <Link href="https://github.com/simo0loufi/DWAM.git" target="_blank" className="px-2 py-2 text-white bg-indigo-600 rounded-md ">
+          <span className="flex items-center space-x-2 text-md font-medium dark:text-gray-100">
+                    <span>
+                      <Image
+                        src="/img/github.svg"
+                        alt="github-icon"
+                        width="25"
+                        height="25"
+                        className="w-8 text-indigo-500"
+                      />
+                    </span>
+                    <span>Go to repo</span>
+                  </span>
           </Link>
 
           <ThemeChanger />

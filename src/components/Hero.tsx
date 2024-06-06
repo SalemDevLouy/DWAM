@@ -14,8 +14,8 @@ export const Hero = () => {
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               DWAM "Development Web & Application Mobile" 
               , It is a department of the 
-              Faculty of "Exact Sciences and Automated 
-              Information" at the University of Djelfa. 
+              Faculty of "Exact Sciences and Computer
+              Sciences" at the University of Djelfa. 
               This page contains information about the 
               specialization, its advantages, and 
               references for study.

@@ -8,7 +8,7 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 
 const benefitOne = {
   title: "What will you study and learn ",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product.",
+  desc: "After you get an overview of all the paths, you can choose any field and continue learning it.",
   image: benefitOneImg,
   bullets: [
     {

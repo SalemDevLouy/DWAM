@@ -13,7 +13,8 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-            <Mark>DWAM</Mark> is the best choice for everyone who loves keyboard
+            <Mark>DWAM</Mark> Good field, but you have to work hard at home and keep learning by yourself,
+             don't limit yourself to only what you learn in class.
             </p>
 
             <Avatar
@@ -26,7 +27,7 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              <Mark>DWAM</Mark> is the best choice for everyone who loves keyboard
+              <Mark>DWAM</Mark> The limited amount of theoretical study allows you more time to practice and learn additional web techniques.
             </p>
 
             <Avatar
@@ -39,7 +40,7 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              <Mark>DWAM</Mark> is the best choice for everyone who loves keyboard
+              <Mark>DWAM</Mark> This field is excellent, it gives you an overview of every path in programming and allows you to choose between web development, mobile applications ...etc
             </p>
 
             <Avatar
