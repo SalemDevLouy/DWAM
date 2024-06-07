@@ -14,7 +14,7 @@ export const Testimonials = () => {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
             <Mark>DWAM</Mark> Good field, but you have to work hard at home and keep learning by yourself,
-             don't limit yourself to only what you learn in class.
+             don&apos;t limit yourself to only what you learn in class.
             </p>
 
             <Avatar
