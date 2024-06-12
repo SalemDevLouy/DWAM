@@ -9,12 +9,12 @@ export function Footer() {
     <div className="relative">
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
-          <div className="lg:col-span-2">
+          <div className="flex flex-col items-center lg:items-start justify-center lg:col-span-2">
             <div>
               {" "}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center justify-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
                   src="/img/logo.svg"
@@ -27,7 +27,7 @@ export function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            <div className="max-w-md mt-4 text-gray-500 text-center lg:text-left dark:text-gray-400">
             DWAM &quot;Development Web & Application Mobile&quot; 
               , It is a department of the 
               Faculty of &quot;Exact Sciences and Automated 
