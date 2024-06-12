@@ -11,8 +11,8 @@ export const Testimonials = () => {
     <Container className="mb-16">
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 ">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-10 rounded-2xl py-10 dark:bg-trueGray-800 shadow-lg">
+            <p className="text-lg sm:text-2xl leading-normal ">
             <Mark>DWAM</Mark> Good field, but you have to work hard at home and keep learning by yourself,
              don&apos;t limit yourself to only what you learn in class.
             </p>
@@ -25,7 +25,7 @@ export const Testimonials = () => {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800 shadow-lg">
             <p className="text-2xl leading-normal ">
               <Mark>DWAM</Mark> The limited amount of theoretical study allows you more time to practice and learn additional web techniques.
             </p>
@@ -38,7 +38,7 @@ export const Testimonials = () => {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800 shadow-lg">
             <p className="text-2xl leading-normal ">
               <Mark>DWAM</Mark> This field is excellent, it gives you an overview of every path in programming and allows you to choose between web development, mobile applications ...etc
             </p>

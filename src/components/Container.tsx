@@ -8,7 +8,7 @@ interface ContainerProps {
 export function Container(props: Readonly<ContainerProps>) {
   return (
     <div
-      className={`container px-8 mx-auto  ${
+      className={`container px-2 sm:px-8 mx-auto  ${
         props.className ? props.className : ""
       }`}>
       {props.children}
