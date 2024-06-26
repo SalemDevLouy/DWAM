@@ -1,4 +1,4 @@
-<p align="center">
+٨<p align="center">
  <a href="https://web3templates.com/?ref=nextly_github_logo">
 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" >
 <rect width="24" height="24" rx="6" fill="#4F46E5"/>
@@ -15,41 +15,13 @@
 
 # DWAM - Landing Page 
 
-DWAM "Development Web & Application Mobile" , It is a department of the Faculty of "Exact Sciences and Automated Information" at the University of Djelfa.
- 
-![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
-
-## How to use
-
-Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
+DWAM "Development Web & Application Mobile" , It is a department of the Faculty of "Exact Sciences and Automated Information" at the 
 
 ### 1\. Clone this Repository
 
 ```bash
 git clone https://github.com/simo0loufi/DWAM.git
-```
 
-### 2\. Navigate to the directory
-
-```
-cd DWAM
-```
-
-### 3\. Install dependencies
-
-```
-yarn install
-# or
-npm install
-```
-
-### 5\. Run Dev Server
-
-```
-yarn dev
-# or
-npm run dev
-```
 
 ## Deploy with Vercel
 
@@ -60,12 +32,6 @@ Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_med
 
 ## Author
 
-Louafi Salem Abdeldjouad
-
----
-
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
-
-
+Louafi Salem 
 
 
