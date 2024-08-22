@@ -56,27 +56,20 @@ export function Footer() {
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="/"
-                rel="noopener"
-              >
-                <span className="sr-only">Twitter</span>
-                <Twitter />
-              </a>
-              <a
-                href="/"
+                href="https://www.facebook.com/abdeldjouad.louafi/"
                 rel="noopener"
               >
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
               <a
-                href="/"
+                href="https://www.instagram.com/salem_louafi/"
                 rel="noopener"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="/"  rel="noopener">
+              <a href="https://www.linkedin.com/in/salem-louafi-532869235/"  rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>
