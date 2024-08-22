@@ -58,6 +58,7 @@ export function Footer() {
               <a
                 href="https://www.facebook.com/abdeldjouad.louafi/"
                 rel="noopener"
+                target="_blank"
               >
                 <span className="sr-only">Facebook</span>
                 <Facebook />
@@ -65,11 +66,12 @@ export function Footer() {
               <a
                 href="https://www.instagram.com/salem_louafi/"
                 rel="noopener"
+                target="_blank"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="https://www.linkedin.com/in/salem-louafi-532869235/"  rel="noopener">
+              <a href="https://www.linkedin.com/in/salem-louafi-532869235/"  rel="noopener" target="_blank">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>
