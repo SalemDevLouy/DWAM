@@ -53,7 +53,7 @@ export function Footer() {
           </div>
          
           <div className="">
-            <div>Follow us</div>
+            <div>Follow the developer :</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
                 href="https://www.facebook.com/abdeldjouad.louafi/"
@@ -71,15 +71,22 @@ export function Footer() {
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="https://www.linkedin.com/in/salem-louafi-532869235/"  rel="noopener" target="_blank">
+              <a href="https://www.linkedin.com/in/salem-louafi-off/"  rel="noopener" target="_blank">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>
             </div>
+            <div className="mt-8">
+              <Link href="https://salemportfolio.vercel.app/" target="_blank" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md ">
+                        Go to Portfolio
+            </Link>
+            </div>
+            
+            
             
           </div>
           <div>
-        <Link href="https://github.com/simo0loufi/DWAM.git" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+        <Link href="https://github.com/simo0loufi/DWAM.git" target="_blank" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
                         Go to repo
         </Link>
         </div>

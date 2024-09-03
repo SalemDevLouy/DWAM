@@ -27,6 +27,9 @@ WebDev 101 is a complete introduction into the world of web development.
       Here you will find references for your course of study and some sample tests
       </SectionTitle>
       <Lesson />
+      <SectionTitle preTitle="Note" title="Notice">
+      Please send the latest lessons and tests to keep the content updated.
+      </SectionTitle>
 
       <SectionTitle
         preTitle="Watch a video"
