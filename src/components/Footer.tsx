@@ -30,8 +30,8 @@ export function Footer() {
             <div className="max-w-md mt-4 text-gray-500 text-center lg:text-left dark:text-gray-400">
             DWAM &quot;Development Web & Application Mobile&quot; 
               , It is a department of the 
-              Faculty of &quot;Exact Sciences and Automated 
-              Information&quot; at the University of Djelfa. 
+              Faculty of &quot;Exact Sciences and Computer
+              Sciences&quot; at the University of Djelfa. 
               This page contains information about the 
               specialization, its advantages, and 
               references for study.
