@@ -13,8 +13,10 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-10 rounded-2xl py-10 dark:bg-trueGray-800 shadow-lg">
             <p className="text-lg sm:text-2xl leading-normal ">
-            <Mark>DWAM</Mark> Good field, but you have to work hard at home and keep learning by yourself,
-             don&apos;t limit yourself to only what you learn in class.
+            <Mark>DWAM</Mark>
+              This path isn’t ideal because it doesn’t provide strong computer science foundations. 
+              It lacks essential subjects such as calculus, operating systems, and linear algebra. 
+              As a result, you may face difficulties later, especially if you plan to pursue a master’s degree.
             </p>
 
             <Avatar
